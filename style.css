@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    min-height: 100%;
+    background: linear-gradient(117.07deg, #94C7E8 0%, #EFC080 85.69%);
+}
+
+.cajaTitulo{
+    text-align: center;
+    margin: 40px 0px 20px 0px;
+}
+
+#titulo{
+    font-size: 32px;
+    font-weight: 400;
+    color: #1C1C1C;
+    font-family: 'Sevillana';
+}
+
+#demoDos{
+    font-size: 20px;
+    margin: 50.5px 20px 30px 20px;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    color: #000000;
+}
+
+.flechaIzq{
+    width: 100%;
+}
+
+#fotos{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+
+#foto{
+    width: 90%;
+    max-height: 200px;
+    display: block;
+    margin: auto;
+}
+
+.flechaDer{
+    width: 100%;
+}
+
+#verDato{
+    width: 100%;
+    text-align: center;
+}
+
+#boton{
+    font-family: Garamond;
+    padding: 10px 25px 10px 25px;
+    border-radius: 8px;
+    border: none;
+    background-color: #000000;
+    color: #FFFFFF;
+}
